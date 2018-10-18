@@ -11,37 +11,37 @@
          alt="Седона">
 </a>
 <nav class="main-nav">
-        <button class="main-nav--toggle" type="button">Открыть меню</button>
-    <div class="main-nav--wrapper">
-        <ul class="main-nav--list site-list">
-                <li class="site-list--item site-list--item">
-                  <a>Главная</a>
-                </li>
-                <li class="site-list--item">
-                  <a href="photo.html">ФОТО И ВИДЕО</a>
-                </li>
-                <li class="site-list--item--active">
-                  <a href="form.html">ФОРМА ОТЗЫВА</a>
-                </li>
-                <li class="site-list--item">
-                  <a href="#">HTML Academy</a>
-                </li>
-              </ul>
-            </div>
+  <button class="main-nav__toggle" type="button">Открыть меню</button>
+<div class="main-nav__wrapper">
+  <ul class="main-nav__site-list">
+          <li class="main-nav__site-list main-nav__site-list--active">
+            <a>Главная</a>
+          </li>
+          <li class="main-nav__site-list">
+            <a href="photo.html">ФОТО И ВИДЕО</a>
+          </li>
+          <li class="main-nav__site-list">
+            <a href="form.html">ФОРМА ОТЗЫВА</a>
+          </li>
+          <li class="main-nav__site-list">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </div>
 </nav>
-<a class="page-logo--sedona">
-  <img class="page-header--logo-image" src="img/logotype-mobile.svg" alt="">
+<a class="page-logo__sedona">
+  <img class="page-header__logo-image" src="img/logotype-mobile.svg" alt="">
   </a>
 
     </header>
  <main class="page-main">
-    <div class="reviews--block">
+    <div class="reviews__block">
     <h1 class="reviews-title">ОСТАВЬТЕ СВОЙ ОТЗЫВ</h1>
     <p class="reviews-description">ПОМОГИТЕ НАШИМ ОТЕЛЯМ СТАТЬ ЛУЧШЕ!<br>
     ОСТАВЬТЕ ОТЗЫВ О НИХ, А ТАКЖЕ О ПОСЕЩЕННЫХ ВАМИ ДОСТОПРИМЕЧАТЕЛЬНОСТЯХ</p>
     
 </div> 
-    <section class="user--name">
+    <section class="user-name">
         <h2> ПРЕДСТАВЬТЕСЬ:</h2>
 
         <form action="https://echo.htmlacademy.ru" method="post">
@@ -54,12 +54,12 @@
           </form>
     </section>
 
-<section class="user--contacts">
+<section class="user-contacts">
     <h2>КОНТАКТНАЯ ИНФОРМАЦИЯ:</h2>
     <form action="https://echo.htmlacademy.ru" method="post">
-        <label for="tel">КОНТАКТНЫЙ ТЕЛЕФОН*:</label>
+        <label  class="tel" for="tel">КОНТАКТНЫЙ ТЕЛЕФОН*:</label>
         <input type="text" id="tel" name="tel" value="Введите телефон">
-        <label for="e-mail">ЭЛЕКТРОННАЯ ПОЧТА:</label>
+        <label  class="e-mail" for="e-mail">ЭЛЕКТРОННАЯ ПОЧТА:</label>
         <input type="text" id="e-mail" name="e-mail" value="Введите e-mail">
         </form>
     </section>
@@ -67,17 +67,17 @@
 
 <section class="feeling">
   <h2>ВАШЕ ОБЩЕЕ ВПЕЧАТЛЕНИЕ:</h2>
-      <label>
+      <label  class="good">
         <input type="radio" name="question-one" value="good" checked>
         Скорее положительное
       </label>
       <br>
-      <label>
+      <label class="bad">
        <input type="radio" name="question-two" value="bad" >
         Скорее отрицательное
       </label>
       <br>
-      <label>
+      <label  class="nogood_nobad">
        <input type="radio" name="question-three" value="nogood_nobad" >
         Затрудняюсь ответить
       </label>
@@ -88,16 +88,16 @@
         <form action="https://echo.htmlacademy.ru" method="post">
            
             <input type="checkbox" name="bridge" id="bridge-field" checked>
-            <label for="bridge-field">Мост Дьявола</label>
+            <label  class="bridge-field" for="bridge-field">Мост Дьявола</label>
 
             <input type="checkbox" name="mountain" id="mountain-field" checked>
-            <label for="mountain-field">Гора-Колокол</label>
+            <label  class="mountain-field" for="mountain-field">Гора-Колокол</label>
 
             <input type="checkbox" name="park" id="park-field" checked>
-            <label for="park-field">Слайд-Парк</label>
+            <label  class="park-field" for="park-field">Слайд-Парк</label>
 
             <input type="checkbox" name="redmountain" id="redmountain-field">
-            <label for="redmountain-field">Красные Скалы</label>
+            <label  class="redmountain-field" for="redmountain-field">Красные Скалы</label>
             
           </form>
 </section>
@@ -115,31 +115,31 @@
 </section>
     </main>
    
-<footer class="page-footer">
+    <footer class="page-footer">
   
-  <div class="page-footer--social social">
-      <b class="social--title">#VISITSEDONA</b>
-
-  <ul class="social--list">
-      <li class="social--item">
-        <a class="social--link social--link--twitter" href="" >Twitter</a>
-
-        </li>
-        <li class="social--item">
-        <a class="social--link social--link--facebook" href="" >FACEBOOK</a>
-      </li>
-
-      <li class="social--item">
-        <a class="social--link social--link--yotube" href="" >YOUTUBE</a>
-        </li>
-    </ul>
-  </div>
-<div class="page-footer--copyright copyright">
-          <b class="copyright--text">Разработано:</b>
-          <a class="button copyright--link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-        </div>
-      
-</footer>
+      <div class="page-footer__social social">
+          <b class="social-title">#VISITSEDONA</b>
+    
+      <ul class="social-list">
+          <li class="social-item">
+            <a class="social-link social-link--twitter" href="" >Twitter</a>
+    
+            </li>
+            <li class="social-item">
+            <a class="social-link social-link--facebook" href="" >FACEBOOK</a>
+          </li>
+    
+          <li class="social-item">
+            <a class="social-link social-link--yotube" href="" >YOUTUBE</a>
+            </li>
+        </ul>
+      </div>
+    <div class="page-footer__copyright copyright">
+              <b class="copyright-text">Разработано:</b>
+              <a class="button__copyright--link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+            </div>
+          
+    </footer>
 
 
 

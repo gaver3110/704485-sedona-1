@@ -13,20 +13,20 @@
 <nav class="main-nav">
   <button class="main-nav__toggle" type="button">Открыть меню</button>
 <div class="main-nav__wrapper">
-  <ul class="main-nav__site-list">
-          <li class="main-nav__site-list main-nav__site-list--active">
-            <a>Главная</a>
-          </li>
-          <li class="main-nav__site-list">
-            <a href="photo.html">ФОТО И ВИДЕО</a>
-          </li>
-          <li class="main-nav__site-list">
-            <a href="form.html">ФОРМА ОТЗЫВА</a>
-          </li>
-          <li class="main-nav__site-list">
-            <a href="#">HTML Academy</a>
-          </li>
-        </ul>
+  <ul class="main-nav__list">
+    <li class="main-nav__item">
+      <a>Главная</a>
+    </li>
+    <li class="main-nav__item">
+      <a href="photo.html">ФОТО И ВИДЕО</a>
+    </li>
+    <li class="main-nav__item main-nav__item--active">
+      <a href="form.html">ФОРМА ОТЗЫВА</a>
+    </li>
+    <li class="main-nav__item">
+      <a href="#">HTML Academy</a>
+    </li>
+  </ul>
       </div>
 </nav>
 <a class="page-logo__sedona">
@@ -35,9 +35,9 @@
 
     </header>
  <main class="page-main">
-    <div class="reviews__block">
-    <h1 class="reviews-title">ОСТАВЬТЕ СВОЙ ОТЗЫВ</h1>
-    <p class="reviews-description">ПОМОГИТЕ НАШИМ ОТЕЛЯМ СТАТЬ ЛУЧШЕ!<br>
+    <div class="reviews">
+    <h1 class="reviews__title">ОСТАВЬТЕ СВОЙ ОТЗЫВ</h1>
+    <p class="reviews__description">ПОМОГИТЕ НАШИМ ОТЕЛЯМ СТАТЬ ЛУЧШЕ!<br>
     ОСТАВЬТЕ ОТЗЫВ О НИХ, А ТАКЖЕ О ПОСЕЩЕННЫХ ВАМИ ДОСТОПРИМЕЧАТЕЛЬНОСТЯХ</p>
     
 </div> 
@@ -88,16 +88,16 @@
         <form action="https://echo.htmlacademy.ru" method="post">
            
             <input type="checkbox" name="bridge" id="bridge-field" checked>
-            <label  class="bridge-field" for="bridge-field">Мост Дьявола</label>
+            <label  class="bridge__field" for="bridge-field">Мост Дьявола</label>
 
             <input type="checkbox" name="mountain" id="mountain-field" checked>
-            <label  class="mountain-field" for="mountain-field">Гора-Колокол</label>
+            <label  class="mountain__field" for="mountain-field">Гора-Колокол</label>
 
             <input type="checkbox" name="park" id="park-field" checked>
-            <label  class="park-field" for="park-field">Слайд-Парк</label>
+            <label  class="park__field" for="park-field">Слайд-Парк</label>
 
             <input type="checkbox" name="redmountain" id="redmountain-field">
-            <label  class="redmountain-field" for="redmountain-field">Красные Скалы</label>
+            <label  class="redmountain__field" for="redmountain-field">Красные Скалы</label>
             
           </form>
 </section>
@@ -107,7 +107,7 @@
 
 <form action="https://echo.htmlacademy.ru" method="post">
    
-    <textarea id="emotion-description" name="emotion" rows="5">Опишите подробно все свои восторги</textarea>
+    <textarea id="emotion__description" name="emotion" rows="5">Опишите подробно все свои восторги</textarea>
     <div class="buttons">
       <input type="submit" value="ОТПРАВИТЬ ОТЗЫВ">
     </div>
@@ -118,24 +118,24 @@
     <footer class="page-footer">
   
       <div class="page-footer__social social">
-          <b class="social-title">#VISITSEDONA</b>
+          <b class="social__title">#VISITSEDONA</b>
     
       <ul class="social-list">
-          <li class="social-item">
+          <li class="social__item">
             <a class="social-link social-link--twitter" href="" >Twitter</a>
     
             </li>
-            <li class="social-item">
+            <li class="social__item">
             <a class="social-link social-link--facebook" href="" >FACEBOOK</a>
           </li>
     
-          <li class="social-item">
+          <li class="social__item">
             <a class="social-link social-link--yotube" href="" >YOUTUBE</a>
             </li>
         </ul>
       </div>
     <div class="page-footer__copyright copyright">
-              <b class="copyright-text">Разработано:</b>
+              <b class="copyright__text">Разработано:</b>
               <a class="button__copyright--link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
             </div>
           
